@@ -13,14 +13,14 @@ import static java.lang.annotation.RetentionPolicy.SOURCE;
  * {@link JsonMapperFactory} that handles all the publicly denoted adapter implementations of this
  * project.
  * <p>
- * <code><pre>
+ * <code>
  *   &#64;AutoValueJsonObjectMapperFactory
  *   public abstract class Factory implements JsonObjectMapperFactory {
  *     public static Factory create() {
  *       return new AutoValueJackson_Factory();
  *     }
  *   }
- * </pre></code>
+ * </code>
  */
 @Retention(SOURCE)
 @Target(TYPE)

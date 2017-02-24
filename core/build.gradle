@@ -1,7 +1,8 @@
 apply plugin: 'java'
-
-ext.artifactId = 'jackson-auto'
+apply plugin: 'maven-publish'
 
 dependencies {
     compile 'com.fasterxml.jackson.core:jackson-core:2.5.1'
 }
+
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
