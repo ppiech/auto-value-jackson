@@ -1,8 +1,8 @@
-# AutoValue: LoganSquare (Jackson) Extension
+# AutoValue: Jackson JSON Parser Extension
 
 [![Build Status](https://travis-ci.org/ppiech/auto-value-jackson.svg?branch=master)](https://travis-ci.org/ppiech/auto-value-jackson)
 
-An extension for Google's [AutoValue](https://github.com/google/auto) that creates a simple `JsonMapper` for each AutoValue annotated object.
+An extension for Google's [AutoValue](https://github.com/google/auto) that creates a simple `JsonMapper` for each AutoValue annotated object.  Based on [LoganSquare](https://github.com/bluelinelabs/LoganSquare) and [auto-value-gson](https://github.com/rharter/auto-value-gson) projects.
 
 ## Usage
 
