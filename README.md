@@ -90,17 +90,16 @@ Add a Gradle dependency to the `apt` and `provided` configuration.
 ```groovy
 apt 'com.ppiech.auto.value:auto-value-jackson:0.1.0'
 provided 'com.ppiech.auto.value:auto-value-jackson:0.1.0'
-compile 'com.ppiech.auto.value:jackson-auto:0.1.0'
 ```
 
 (Using the [android-apt](https://bitbucket.org/hvisser/android-apt) plugin)
 
 Snapshots of the latest development version are available in [Sonatype's `snapshots` repository](https://oss.sonatype.org/content/repositories/snapshots/).
 
-You will also need a normal runtime dependency for LoganSquare itself.
+You will also need a normal runtime dependency for jackson-auto runtime component, which pulls in jackson-core as well.
 
 ```groovy
-compile 'com.bluelinelabs:logansquare:1.3.7'
+compile 'com.ppiech.auto.value:jackson-auto:0.1.0'
 ```
 
 ## License
