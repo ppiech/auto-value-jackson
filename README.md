@@ -105,7 +105,9 @@ compile 'com.ppiech.auto.value:jackson-auto:0.1.0'
 ## License
 
 ```
-Copyright 2015-2017 Ryan Harter, BlueLine Labs, Inc., Pawel Piech
+Copyright 2015 Ryan Harter
+Copyright 2015 BlueLine Labs, Inc.
+Copyright 2017 Fitbit, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
